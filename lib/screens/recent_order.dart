@@ -10,7 +10,7 @@ class RecentOrder extends StatelessWidget {
 
   buildRecentOrder(BuildContext context, Order order) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.only(left: 8.0),
       child: Container(
         width: 300,
         decoration: BoxDecoration(
